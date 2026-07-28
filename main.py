@@ -20,11 +20,11 @@ IL_MIO_TAG_URL = "https://t.me/Myalexy"  # Link al tuo profilo Telegram
 
 # Parametri di Connessione MySQL (XAMPP predefinito)
 MYSQL_CONFIG = {
-    "host": os.environ.get("MYSQLHOST"),
-    "user": os.environ.get("MYSQLUSER"),
-    "password": os.environ.get("MYSQLPASSWORD"),
-    "port": int(os.environ.get("MYSQLPORT", 3306)),
-    "database": os.environ.get("MYSQLDATABASE", "railway")
+    "host": "mysql.railway.internal",
+    "user": "root",
+    "password": "rpbuTOnHanNsjljFYFjtHOgKOQCbQfUP",
+    "port": 3306,  # IMPORTANTE: con l'host interno si usa SEMPRE la 3306!
+    "database": "railway"
 }
 DB_NAME = "railway"
 
