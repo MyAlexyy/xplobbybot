@@ -20,10 +20,10 @@ IL_MIO_TAG_URL = "https://t.me/Myalexy"  # Link al tuo profilo Telegram
 
 # Parametri di Connessione MySQL (XAMPP predefinito)
 MYSQL_CONFIG = {
-    "host": "mysql.railway.internal",
+    "host": "mysql://root:rpbuTOnHanNsjljFYFjtHOgKOQCbQfUP@tokaido.proxy.rlwy.net:56537/railway",
     "user": "root",
     "password": "rpbuTOnHanNsjljFYFjtHOgKOQCbQfUP",  # Di default in XAMPP la password è vuota
-    "port": 3306,
+    "port": 56537,
 }
 DB_NAME = "prenotazioni_db"
 
