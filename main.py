@@ -26,7 +26,7 @@ MYSQL_CONFIG = {
     "port": 56537,
     "database": "railway"
 }
-DB_NAME = "prenotazioni_db"
+DB_NAME = "railway"
 
 
 # ==========================================
